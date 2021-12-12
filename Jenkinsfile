@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+    agent {
+        label 'test-agent'
+    }
   stages {
     stage('git scm update') {
       steps {
