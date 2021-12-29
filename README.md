@@ -1,2 +1,2 @@
 
-# Application repsitory
+# argocd repsitory
